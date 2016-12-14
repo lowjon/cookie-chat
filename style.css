@@ -8,6 +8,10 @@ body {
   width: 100%;
   font-family: sans-serif;
 }
+h4 {
+  text-align: center;
+  color:#A3A3A3;
+}
 
 .main-container {
   width: 75%;
@@ -19,6 +23,7 @@ body {
 
 .main-container h1 {
   text-align: center;
+  color: #A3A3A3;
 }
 
 .text-box {
@@ -30,4 +35,26 @@ p{
   text-align: center;
   margin: 3px 0;
   font-size: 17px;
+}
+.messageLi{
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.ulBox{
+
+}
+.messageText{
+  width: 65%;
+  word-wrap: break-word;
+
+}
+
+.messageDiv{
+  font-size: 1.7rem;
 }
